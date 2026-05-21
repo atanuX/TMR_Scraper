@@ -1,0 +1,37 @@
+# Output files
+output.csv
+output_auto.csv
+output_scraped_final.csv
+
+# Checkpoint files
+checkpoint.txt
+checkpoint_auto.txt
+checkpoint_done_final.txt
+
+# Input Excel files (user-specific data)
+*.xlsx
+
+# CAPTCHA screenshots
+captchas/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Old scraper (kept scraper.py as main)
+scraper_auto.py
